@@ -37,7 +37,7 @@ public class socket2 extends javax.swing.JFrame implements Runnable {
 
     private void botonActionPerformed(java.awt.event.ActionEvent evt) {                                         
         try {
-            Socket conexion = new Socket("127.0.0.1", 8888); // Se conecta al puerto de Persona 1
+            Socket conexion = new Socket("127.0.0.1", 8888);
             DataOutputStream salida = new DataOutputStream(conexion.getOutputStream());
             String msg = texto.getText();
             salida.writeUTF(msg);
@@ -48,8 +48,6 @@ public class socket2 extends javax.swing.JFrame implements Runnable {
         }
     }
     
-    
-    // Código generado por NetBeans (puedes modificarlo con el GUI Builder o personalizarlo)
     @SuppressWarnings("unchecked")
     private void initComponents() {
         texto = new javax.swing.JTextField();

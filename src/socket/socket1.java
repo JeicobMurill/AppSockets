@@ -49,7 +49,6 @@ public class socket1 extends javax.swing.JFrame implements Runnable {
         }
     }
     
-    // Código generado por NetBeans (no modificar si usas el GUI Builder)
     @SuppressWarnings("unchecked")
     private void initComponents() {
         texto = new javax.swing.JTextField();
