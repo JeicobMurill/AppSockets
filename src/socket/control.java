@@ -4,10 +4,7 @@
  */
 package socket;
 
-/**
- *
- * @author locon
- */
+
 public class control {
     
     public static void main(String[] args) {
